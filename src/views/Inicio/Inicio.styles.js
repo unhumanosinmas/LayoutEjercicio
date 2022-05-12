@@ -2,12 +2,15 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
 
-    main: {},
+    main: {
+        backgroundColor: 'white'
+    },
 
     title: {
         fontSize: 50,
         fontWeight: 'bold',
-        textAlign: 'center'
+        textAlign: 'center',
+        color: 'Black'
     }
 
 

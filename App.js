@@ -8,13 +8,13 @@
 
 import React from 'react';
 import {SafeAreaView} from 'react-native';
-import Main from './src/views/Main';
+import Inicio from './src/views/Inicio';
 
 const App = () => {
 
   return (
     <SafeAreaView>
-      <Main />
+      <Inicio />
     </SafeAreaView>
   );
 };
