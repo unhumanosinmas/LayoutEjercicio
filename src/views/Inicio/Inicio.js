@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 import styles, {Styles} from './Inicio.styles'
+import Fotos from '../fotos'
 
 
 const Inicio = (props) => {
@@ -49,7 +50,8 @@ const Inicio = (props) => {
             <View>
                 <Text style={styles.title}>Mountain Pictures</Text>
             </View>
-            <Separator /> 
+            <Separator />
+            <View><Fotos/></View> 
         </View>
     );
 };

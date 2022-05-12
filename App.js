@@ -7,14 +7,16 @@
  */
 
 import React from 'react';
-import {SafeAreaView} from 'react-native';
+import {SafeAreaView, ScrollView} from 'react-native';
 import Inicio from './src/views/Inicio';
 
 const App = () => {
 
   return (
     <SafeAreaView>
-      <Inicio />
+      <ScrollView>
+        <Inicio />
+      </ScrollView>
     </SafeAreaView>
   );
 };
