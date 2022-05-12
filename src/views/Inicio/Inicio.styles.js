@@ -6,11 +6,27 @@ const styles = StyleSheet.create({
         backgroundColor: 'white'
     },
 
+    separator: {
+        marginVertical: 8,
+        borderBottomColor: '#737373',
+        borderBottomWidth: StyleSheet.hairlineWidth,
+      },
+
     title: {
-        fontSize: 50,
+        fontSize: 40,
         fontWeight: 'bold',
         textAlign: 'center',
-        color: 'Black'
+        color: '#000'
+    },
+
+    buttons: {
+        margin: 1,    
+    },
+
+    row: {
+        justifyContent: 'center',
+        flexDirection: 'row',
+        flexGrow: 1
     }
 
 
